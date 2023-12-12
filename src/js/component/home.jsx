@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
-import Jumbroton from "./jumbotron";
+import Jumbotron from "./jumbotron";
+import Card from "./card";
+import Footer from "./footer";
 //include images into your bundle
 
 
@@ -9,9 +11,14 @@ const Home = () => {
 	return (
 		<div>
 		<Navbar/>
-		<div className="container">
-		<Jumbroton/>
+		<div className="container-fluid mt-4 ">
+		<Jumbotron/>
+		<Card/>
+		<Card/>
+		<Card/>
+		<Card/>
 		</div>
+		<Footer/>
 		</div>
 	);
 };

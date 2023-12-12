@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg " > 
+        <nav className="navbar navbar-expand-lg fixed-top" > 
         <div className="container-fluid">
             <a className="navbar-brand" href="#">Start Bootstrap</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
