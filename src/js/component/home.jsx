@@ -11,8 +11,8 @@ const Home = () => {
 	return (
 		<div>
 		<Navbar/>
-		<div className="container-fluid ">
 		<Jumbotron/>
+		<div className="contenedor-fotos d-flex flex-wrap ">
 		<Card/>
 		<Card/>
 		<Card/>

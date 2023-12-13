@@ -12,12 +12,12 @@
 .navbar-brand{
     color:white;
 }
-.card{
-    display:inline-flex;
-    width: 25%;
-    
-    
+
+.contenedor-fotos{
+    display: flex;
+    justify-content: space-around;
 }
+
 
 .navbar-footer{
     background-color: #202020;
